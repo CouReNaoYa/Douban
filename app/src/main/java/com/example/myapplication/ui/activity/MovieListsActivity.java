@@ -1,9 +1,7 @@
 package com.example.myapplication.ui.activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -25,8 +23,6 @@ import com.example.myapplication.ui.adapter.MovieListAdapter;
 import com.example.myapplication.ui.listener.OnGetMovieListener;
 import com.example.myapplication.ui.persent.MoviePersent;
 import com.example.myapplication.utils.ToastUtils;
-
-import java.io.Serializable;
 
 public class MovieListsActivity extends BaseActivity implements AdapterView.OnItemClickListener {
     private MoviePersent persent;
